@@ -15,6 +15,32 @@ a{text-decoration: none;color: inherit;}
 .dis-flex {display: flex;}
 .hidden {display: none;}
 .block {display: block;}
+.opa-0 {opacity: 0;}
+.opa-1 {opacity: 1;}
+.trans-scale-2 {transform: scale(1.1);}
+.trans-scale-1 {transform: scale(1);}
+
+section {
+    transition: 1500ms;
+    margin-top: 10vh;
+    opacity: 0;
+}
+
+#marbling-imgbox div {
+    transition: 600ms;
+}
+
+.shop-now {
+    transition: 500ms;
+}
+
+.plateTxt {
+    transition: 500ms;
+}
+
+#brand img {
+    transition: 800ms;
+}
 
 /* layout */
 /* header */
@@ -404,10 +430,16 @@ header {
 #marbling-imgbox div{
     width: 20vw;
     height: inherit;
+    overflow: hidden;
     /* border: 1px solid red; */
 }
 #marbling-imgbox div img {
     width: 100%;
+    transition: 0.5s;
+}
+
+#marbling-imgbox div img:hover {
+    transform: scale(1.1);
 }
 
 /* items */
@@ -593,8 +625,12 @@ footer input {
     background-color: black;
     color: white;
     text-align: center;
-    line-height: 5vh;
     margin-top: 2vh;
+}
+
+#subscribe a {
+    display: block;
+    line-height: 5vh;
 }
 
 #copyright {
