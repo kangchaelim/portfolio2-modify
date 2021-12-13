@@ -42,6 +42,21 @@ section {
     transition: 800ms;
 }
 
+/* #items>div {
+    transition: 1500ms;
+} */
+
+.item {
+    opacity: 0;
+    margin-top: 10vh;
+    transition: 1500ms;
+}
+.itemRe {
+    opacity: 1;
+    margin-top: 0vh;
+    transition: 1500ms;
+}
+
 /* layout */
 /* header */
 header {
@@ -293,7 +308,8 @@ header {
     left: 50%;
     transform: translate(-50%,-95%);
     /* margin-top: 7vh; */
-    font-size: 0.8em;
+    font-size: 0.9em;
+    font-weight: bold;
 }
 
 #pot1 {
@@ -417,7 +433,7 @@ header {
 #marbling-des h4 {
     margin-top: 3vw;
     font-size: 1.3em;
-    font-weight: lighter;
+    font-weight: normal;
     margin-bottom: 10vh;
 }
 
@@ -617,6 +633,7 @@ footer input {
     width: 25vh;
     height: 4vh;
     margin-top: 2vh;
+    padding: 1vh;
 }
 
 #subscribe {
