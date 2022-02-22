@@ -1,0 +1,63 @@
+/* brand */
+#brand {
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid red; */
+    text-align: center;
+    line-height: 1.7em;
+    padding-top: 10vh;
+}
+
+#brand p:nth-child(1) {
+    /* margin-top: 10vh; */
+    font-size: 0.9em;
+}
+
+#brand p:nth-child(2) {
+    /* margin-top: 65vh; */
+    font-size: 0.9em;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-85%);
+}
+
+#brand p:nth-child(3) {
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%,-95%);
+    /* margin-top: 7vh; */
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+#pot1 {
+    top: 24vh;
+    left: 35vw;
+}
+
+#pot2 {
+    top: 60vh;
+    right: 37vw;
+}
+
+#ceo {
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-45%);
+}
+#brand span {
+    font-size: 1.5em;
+}
+
+#ceo1 {
+    writing-mode: vertical-rl;
+    top: 57vh;
+    left: 40vw;
+    transform: rotate(180deg);
+}
+
+#ceo2 {
+    writing-mode: vertical-rl;
+    top: 24vh;
+    right: 40.1vw;
+}

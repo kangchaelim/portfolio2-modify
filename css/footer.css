@@ -1,0 +1,61 @@
+/* footer */
+footer {
+    width: 80vw;
+    height: 70vh;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    padding-top: 5vh;
+}
+
+footer #information {
+    width: inherit;
+    height: 40;
+    padding-top: 10vh;
+    justify-content: space-around;
+}
+
+footer #line {
+    width: inherit;
+    height: 0.1vh;
+    background-color: rgb(182, 182, 182);
+}
+
+footer p {
+    margin-bottom: 3vh;
+}
+
+footer a:hover {
+    color: rgb(197, 197, 197);
+}
+
+footer a {
+    display: block;
+    line-height: 2.5em;
+}
+
+footer input {
+    width: 25vh;
+    height: 4vh;
+    margin-top: 2vh;
+    padding: 1vh;
+}
+
+#subscribe {
+    width: 13vh;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+#subscribe a {
+    display: block;
+    line-height: 5vh;
+}
+
+#copyright {
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-90%);
+}

@@ -1,0 +1,222 @@
+/* header */
+header {
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid red; */
+    padding-top: 22vh;
+}
+
+#main {
+    width: 24vw;
+    height: 40vh;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+
+.black-shelf {
+    width: inherit;
+    height: 0.5vh;
+    background-color: black;
+}
+
+.black-shelf:first-child {
+   top: 10vh;
+}
+
+.black-shelf:nth-child(2) {
+    top: 30vh;
+    z-index: 1;
+}
+
+#main img {
+    position: absolute;
+}
+
+/* plate 위치 잡기 */
+#col1 {
+    top: 3.2vh;
+    left: 4.5vw;
+}
+
+#col2 {
+    top: 3.2vh;
+    left: 2.5vw;
+}
+
+#island1 {
+    top: 1.5vh;
+    right: 1.8vw;
+}
+
+#island2 {
+    top: 1.5vh;
+    right: 3.8vw;
+}
+
+#kids1 {
+    bottom: 9.5vh;
+    left: 1vw;
+}
+
+#kids2 {
+    bottom: 9.5vh;
+    left: 2.5vw;
+}
+
+#kids3 {
+    bottom: 9.5vh;
+    left: 4vw;
+}
+
+
+#marbling {
+    bottom: 9.5vh;
+    right: 8vw;
+}
+
+#classic {
+    bottom: 9.5vh;
+    right: 1vw;
+    
+}
+
+/* hanmade & logo */
+#handmade {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+
+#logo {
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+}
+
+/* shop-now */
+.shop-now {
+    width: 5vw;
+    height: 3vh;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    line-height: 3vh;
+}
+
+.shop-now a {
+    display: block;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+#shop1 {
+    top: 5vh;
+    left: 2.8vw;
+}
+
+#shop2 {
+    top: 5vh;
+    right: 2.7vw;
+}
+
+#shop3 {
+    top: 24.5vh;
+    left: 2.4vw;
+}
+
+#shop4 {
+    top: 24.5vh;
+    right: 7.7vw;
+}
+
+#shop5 {
+    top: 24.5vh;
+    right: 0.9vw;
+}
+
+/* plateTxt */
+.plateTxt {
+    width: 35vw;
+    height: 35vh;
+    /* border: 1px solid red; */
+}
+
+.lineBox {
+    width: 28vw;
+    height: 25vh;
+    border: 0.2px solid rgb(129, 129, 129);
+    top: 5vh;
+    left: 2vw;
+    padding-top: 10vh;
+    padding-left: 2vw;
+}
+
+.plateTxt h3 {
+    font-size: 1.5em;
+    top:8vh;
+}
+
+.plateTxt span {
+    font-family: 'Montagu Slab', serif;
+}
+.plateTxt h3 span:nth-child(1) {
+    transform: rotate(-180deg);
+}
+
+.plateTxt p {
+    font-size: 0.9em;
+    line-height: 1.7em;
+}
+
+/* collorama */
+#colTxt {
+    top: 10vh;
+    left: 3vw;
+}
+
+.col-img {
+    top: 8.5vh;
+    right: 1vw;
+}
+/* kids and family */
+#kidTxt {
+    top: 30vh;
+    left: 3vw;
+}
+
+.kid-img {
+    top: 7.5vh;
+    right: 1vw;
+}
+
+/* new marble */
+#marTxt {
+    top: 50vh;
+    left: 34vw;
+}
+
+.mar-img {
+    top: 8.5vh;
+    right: 0.5vw;
+}
+
+/* island breeze */
+#islTxt {
+    top: 10vh;
+    right: 2vw;
+}
+
+.isl-img {
+    top: 6.8vh;
+    right: 1vw;
+}
+
+/* classic marble */
+#claTxt {
+    top: 30vh;
+    right: 2vw;
+}
+
+.cla-img {
+    top: 10vh;
+    right: 1vw;
+}
