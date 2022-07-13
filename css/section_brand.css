@@ -1,11 +1,11 @@
 /* brand */
 #brand {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     /* border: 1px solid red; */
     text-align: center;
     line-height: 1.7em;
-    padding-top: 10vh;
+    padding-top: 100px;
 }
 
 #brand p:nth-child(1) {
@@ -16,48 +16,49 @@
 #brand p:nth-child(2) {
     /* margin-top: 65vh; */
     font-size: 0.9em;
-    top: 85%;
+    top: 90%;
     left: 50%;
-    transform: translate(-50%,-85%);
+    transform: translate(-50%,-90%);
 }
 
 #brand p:nth-child(3) {
-    top: 95%;
+    top: 100%;
     left: 50%;
-    transform: translate(-50%,-95%);
+    transform: translate(-50%,-100%);
     /* margin-top: 7vh; */
     font-size: 0.9em;
     font-weight: bold;
 }
 
 #pot1 {
-    top: 24vh;
-    left: 35vw;
+    top: 220px;
+    left: 645px;
 }
 
 #pot2 {
-    top: 60vh;
-    right: 37vw;
+    top: 560px;
+    right: 700px;
 }
 
 #ceo {
-    top: 45%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%,-45%);
+    transform: translate(-50%,-50%);
 }
+
 #brand span {
     font-size: 1.5em;
 }
 
 #ceo1 {
     writing-mode: vertical-rl;
-    top: 57vh;
-    left: 40vw;
+    top: 538px;
+    left: 750px;
     transform: rotate(180deg);
 }
 
 #ceo2 {
     writing-mode: vertical-rl;
-    top: 24vh;
-    right: 40.1vw;
+    top: 224px;
+    right: 750px;
 }

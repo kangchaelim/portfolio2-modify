@@ -32,13 +32,13 @@
 }
 
 #items #best-item>a {
-    top: 22vh;
-    left: 3vw;
+    top: 200px;
+    left: 55px;
 }
 
 #circle1 {
-    left: 3.4vw;
-    top: 18.2vh;
+    left: 63px;
+    top: 163px;
 }
 
 #items #new-item-box {
@@ -50,13 +50,13 @@
 }
 
 #items #new-item a {
-    top: 22vh;
-    right: 3vw;
+    top: 200px;
+    right: 55px;
 }
 
 #circle2 {
-    right: 3.4vw;
-    top: 18.2vh;
+    right: 63px;
+    top: 163px;
 }
 
 #items>div>div>div {

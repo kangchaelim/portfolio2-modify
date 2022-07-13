@@ -1,32 +1,32 @@
-/* marbling-des */
-#marbling-des {
+/* marbling-desc */
+#marbling-desc {
     width: 100vw;
-    height: 85vh;
+    height: 90vh;
     /* border: 1px solid red; */
     text-align: center;
-    padding-top: 15vh;
+    padding-top: 170px;
 }
 
-#marbling-des p {
+#marbling-desc p {
     font-size: 0.9em;
     line-height: 1.7em;
 }
 
-#marbling-des h4 {
-    margin-top: 3vw;
+#marbling-desc h3 {
+    margin-top: 70px;
     font-size: 1.3em;
     font-weight: normal;
-    margin-bottom: 10vh;
+    margin-bottom: 105px;
 }
 
 #marbling-imgbox {
-    width: 100vw;
+    width: 100%;
     height: 25vh;
     /* background-color: lightslategray; */
 }
 
 #marbling-imgbox div{
-    width: 20vw;
+    width: 20%;
     height: inherit;
     overflow: hidden;
     /* border: 1px solid red; */

@@ -9,19 +9,24 @@ footer {
 
 footer #information {
     width: inherit;
-    height: 40;
-    padding-top: 10vh;
+    height: 40vh;
+    padding-top: 85px;
     justify-content: space-around;
 }
 
 footer #line {
     width: inherit;
-    height: 0.1vh;
+    height: 1px;
     background-color: rgb(182, 182, 182);
 }
 
 footer p {
-    margin-bottom: 3vh;
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+
+footer p:last-child {
+    font-weight: normal;
 }
 
 footer a:hover {
@@ -31,27 +36,27 @@ footer a:hover {
 footer a {
     display: block;
     line-height: 2.5em;
+    transition: all 0.3s;
 }
 
 footer input {
-    width: 25vh;
-    height: 4vh;
-    margin-top: 2vh;
-    padding: 1vh;
+    width: 230px;
+    margin-top: 20px;
+    padding: 10px;
 }
 
 #subscribe {
-    width: 13vh;
-    height: 5vh;
+    width: 130px;
+    height: 40px;
     background-color: black;
     color: white;
     text-align: center;
-    margin-top: 2vh;
+    margin-top: 20px;
 }
 
 #subscribe a {
     display: block;
-    line-height: 5vh;
+    line-height: 40px;
 }
 
 #copyright {
