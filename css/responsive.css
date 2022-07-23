@@ -1,0 +1,183 @@
+/* 태플릿 모드 */
+@media screen and (max-width:1400px) {
+    /* 1400px ~ 1024px 사이 */
+    /* main */
+    .plateTxt {width: 400px; height: 200px;}
+    .lineBox {width: 360px; height: 180px; border: 0.2px solid rgb(129, 129, 129); top: 40px; left: 40px;padding-top: 65px; padding-left: 25px;}
+    .plateTxt h3 {font-size: 1.2em; top: 70px;}
+    .plateTxt span {font-family: 'Montserrat', sans-serif; font-weight: 500;}
+    .plateTxt p {font-size: 0.7em; line-height: 1.7em;}
+    .plateTxt img {width: 70px;}
+    #colTxt {left: 0.5vw; top: 13vh;}
+    .col-img {top: 10vh; right: -2vw;}
+    #kidTxt {left: 0.5vw; top: 33vh;}
+    .kid-img {top: 9.2vh; right: -2vw;}
+    #islTxt {top: 13vh;}
+    .isl-img {top: 9vh; right: -2.5vw;}
+    .mar-img {top: 10.2vh; right: -2vw;}
+    #claTxt {top: 33vh;}
+    .cla-img {top: 10.5vh; right: -2vw;}
+    .shop-now {height: 25px; font-size: 0.8em; line-height: 20px;}
+    /* section.brand */
+    #ceo {width: 300px;}
+    #pot1 {left: 305px;}
+    #pot2 {right: 350px;}
+    #brand span {font-size: 1.2em;}
+    #ceo1 {left: 420px; top: 560px;}
+    #ceo2 {right: 420px; top: 230px;}
+    #brand p:nth-child(1) {font-size: 0.8em;}
+    #brand p:nth-child(2) {font-size: 0.8em;}
+    #brand p:nth-child(3) {font-size: 0.8em;}
+    /* section.anamelware */
+    #anamelware-txt {left: 0;}
+    #anamelware-txt h4 {font-size: 1.5em;}
+    #anamelware-txt h5 {font-size: 1.2em;}
+    #anamelware-txt p {font-size: 0.8em;}
+    #anamelware #anamelware-imgbox {right: 2%;}
+    #anamelware-img  {width: 80%;}
+    #sticker1 {width: 40%; left: 0; top: 80px;}
+    #sticker2 {width: 40%; right: 0; bottom: 60px;}
+    /* section.marbling-desc */
+    #marbling-desc {height: 75vh;}
+    #marbling-desc {padding-top: 150px;}
+    #marbling-desc p {font-size: 0.8em;}
+    #marbling-desc h3 {font-size: 1.2em; margin-bottom: 80px;}
+    #marbling-imgbox {height: 18vh;}
+    #marbling-imgbox div img {height: 100%;}
+    /* section.items */
+    .item-direct {font-size: 1.2em;}
+    #circle1 {left: 51px;}
+    #circle2 {right: 51px;}
+    .itemTxt {font-size: 0.8em;}
+    /* section.notice */
+    #notice {height: 60vh; padding-top: 200px;}
+    #notice h5 {font-size: 1.2em;}
+    #notice a {font-size: 0.8em;}
+    #notice p {font-size: 0.8em;}
+    /* footer */
+    footer {height: 60vh;}
+    footer p {font-size: 1em;}
+    footer a {font-size: 0.8em;}
+}
+
+@media screen and (max-width:1000px) {
+    /* 1000px ~ 768px 사이 */
+    /* main */
+    .plateTxt {display: none;}
+    /* section.brand */
+    #ceo {width: 250px;}
+    #pot1 {left: 150px;}
+    #pot2 {right: 180px;}
+    #brand span {font-size: 1em;}
+    #ceo1 {left: 230px; top: 545px;}
+    #ceo2 {right: 230px; top: 265px;}
+    #brand p:nth-child(1) {font-size: 0.7em;}
+    #brand p:nth-child(2) {font-size: 0.7em;}
+    #brand p:nth-child(3) {font-size: 0.7em;}
+    /* section.anamelware */
+    #anamelware-txt {left: 0;}
+    #anamelware-txt h4 {font-size: 1.2em;}
+    #anamelware-txt h5 {font-size: 1em;}
+    #anamelware-txt p {font-size: 0.7em;}
+    #anamelware #anamelware-imgbox {top: 50%; right: 2%;}
+    #anamelware-img  {width: 80%;}
+    #sticker1 {width: 35%; left: 0; top: 170px;}
+    #sticker2 {width: 35%; right: 0; bottom: 170px;}
+    /* section.marbling-desc */
+    #marbling-desc {padding-top: 150px;}
+    #marbling-desc p {font-size: 0.7em; margin-top: 50px;}
+    #marbling-desc h3 {font-size: 1em; margin-bottom: 80px;}
+    #marbling-imgbox {height: 15vh;}
+    #marbling-imgbox div img {width: 100%;}
+    /* section.items */
+    #items #new-item {height: 40vh;}
+    #items #best-item {height: 40vh;}
+    #items #best-item-box {height: 30vh;}
+    #items #new-item-box {height: 30vh;}
+    #items>div>div>div {height: 30vh;}
+    #items #new-item-box img {width: 150px;}
+    #items #best-item-box img {width: 150px;}
+    .item-direct {font-size: 1em;}
+    #circle1 {width: 80px; left: 0; top: 170px;}
+    #circle2 {width: 80px; right: 0; top: 170px;}
+    .itemTxt {font-size: 0.7em;}
+    #items #new-item a {right: 0;}
+    #items #best-item a {left: 0;}
+    /* section.notice */
+    #notice {height: 35vh; padding-top: 0;}
+    #notice h5 {font-size: 1em;}
+    #notice a {font-size: 0.7em;}
+    #notice p {font-size: 0.7em;}
+    /* footer */
+    footer {height: 50vh;}
+    footer p {font-size: 0.9em;}
+    footer a {font-size: 0.7em; line-height: 1.7em}
+    footer #information {padding-top: 50px;}
+    footer #information div {margin-right: 50px;}
+    footer #information div:last-child {margin-right: 0;}
+    #subscribe {width: 100px; height: 30px;}
+    #subscribe a {line-height: 30px;}
+    footer input {width: 180px; padding: 5px;}
+    #copyright {bottom: 0;}
+}
+
+/* 모바일 모드 */
+@media screen and (max-width:767px){
+     /* main */
+     .plateTxt {display: none;}
+     /* section.brand */
+     #ceo {width: 200px;}
+     #pot1 {width: 150px; left: 100px;}
+     #pot2 {width: 100px; right: 140px;}
+     #brand span {font-size: 0.8em;}
+     #ceo1 {left: 180px; top: 520px;}
+     #ceo2 {right: 180px; top: 300px;}
+     #brand p:nth-child(1) {font-size: 0.6em; line-height: 2.2em;}
+     #brand p:nth-child(2) {font-size: 0.6em; line-height: 2.2em;}
+     #brand p:nth-child(3) {font-size: 0.6em; line-height: 2.2em;}
+     /* section.anamelware */
+     #anamelware-txt {left: 0;}
+     #anamelware-txt h4 {font-size: 1em;}
+     #anamelware-txt h5 {font-size: 0.8em;}
+     #anamelware-txt p {font-size: 0.6em; line-height: 2.2em;}
+     #anamelware #anamelware-imgbox {top: 60%; left: 50%; transform: translateX(-50%); right: 2%;}
+     #anamelware-img  {width: 80%;}
+     #sticker1 {width: 35%; left: 0; top: 200px;}
+     #sticker2 {width: 35%; right: 0; bottom: 200px;}
+     /* section.marbling-desc */
+     #marbling-desc {padding-top: 150px;}
+     #marbling-desc p {font-size: 0.7em; margin-top: 50px;}
+     #marbling-desc h3 {font-size: 1em; margin-bottom: 80px;}
+     #marbling-imgbox {height: 10vh;}
+     #marbling-imgbox div img {width: 100%;}
+     /* section.items */
+     #items #new-item {height: 40vh;}
+     #items #best-item {height: 40vh;}
+     #items #best-item-box {height: 30vh;}
+     #items #new-item-box {height: 30vh;}
+     #items>div>div>div {height: 30vh;}
+     #items #new-item-box img {width: 150px;}
+     #items #best-item-box img {width: 150px;}
+     .item-direct {font-size: 1em;}
+     #circle1 {width: 80px; left: 0; top: 170px;}
+     #circle2 {width: 80px; right: 0; top: 170px;}
+     .itemTxt {font-size: 0.7em;}
+     #items #new-item a {right: 0;}
+     #items #best-item a {left: 0;}
+     /* section.notice */
+     #notice {height: 35vh; padding-top: 0;}
+     #notice h5 {font-size: 1em;}
+     #notice a {font-size: 0.7em;}
+     #notice p {font-size: 0.7em;}
+     /* footer */
+     footer {height: 50vh;}
+     footer p {font-size: 0.9em;}
+     footer a {font-size: 0.7em; line-height: 1.7em}
+     footer #information {padding-top: 50px;}
+     footer #information div {margin-right: 50px;}
+     footer #information div:last-child {margin-right: 0;}
+     #subscribe {width: 100px; height: 30px;}
+     #subscribe a {line-height: 30px;}
+     footer input {width: 180px; padding: 5px;}
+     #copyright {bottom: 0;}
+}
